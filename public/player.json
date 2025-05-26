@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Tamim Iqbal",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/8n4gD6b9/Abu-Sayed.jpg",
+        "role": "batsman",
+        "batting_type": "left-handed",
+        "bowling_type": "none",
+        "bowling_style": "none",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "name": "Mahmudullah Riyad",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/fzsCXKT8/Faisal-Ahmed-Shanto.jpg",
+        "role": "all-rounder",
+        "batting_type": "right-handed",
+        "bowling_type": "off spin",
+        "bowling_style": "right-arm",
+        "price": 1000
+    },
+    {
+        "id": 3,
+        "name": "Mushfiqur Rahim",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/hxs8bjSN/Md-Wasim-Akrum.webp",
+        "role": "wicket-keeper",
+        "batting_type": "right-handed",
+        "bowling_type": "none",
+        "bowling_style": "none",
+        "price": 1000
+    },
+    {
+        "id": 4,
+        "name": "Mehidy Hasan Miraz",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/8n4gD6b9/Abu-Sayed.jpg",
+        "role": "all-rounder",
+        "batting_type": "right-handed",
+        "bowling_type": "off spin",
+        "bowling_style": "right-arm",
+        "price": 1000
+    },
+    {
+        "id": 5,
+        "name": "Taskin Ahmed",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/fzsCXKT8/Faisal-Ahmed-Shanto.jpg",
+        "role": "bowler",
+        "batting_type": "right-handed",
+        "bowling_type": "fast",
+        "bowling_style": "right-arm",
+        "price": 1000
+    },
+    {
+        "id": 6,
+        "name": "Anamul Haque Bijoy",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/hxs8bjSN/Md-Wasim-Akrum.webp",
+        "role": "wicket-keeper",
+        "batting_type": "right-handed",
+        "bowling_type": "none",
+        "bowling_style": "none",
+        "price": 1000
+    },
+    {
+        "id": 7,
+        "name": "Najmul Hossain Shanto",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/8n4gD6b9/Abu-Sayed.jpg",
+        "role": "batsman",
+        "batting_type": "left-handed",
+        "bowling_type": "part-time spin",
+        "bowling_style": "right-arm",
+        "price": 1000
+    },
+    {
+        "id": 8,
+        "name": "Afif Hossain",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/fzsCXKT8/Faisal-Ahmed-Shanto.jpg",
+        "role": "all-rounder",
+        "batting_type": "left-handed",
+        "bowling_type": "off spin",
+        "bowling_style": "right-arm",
+        "price": 1000
+    },
+    {
+        "id": 9,
+        "name": "Nasum Ahmed",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/hxs8bjSN/Md-Wasim-Akrum.webp",
+        "role": "bowler",
+        "batting_type": "right-handed",
+        "bowling_type": "slow left-arm spin",
+        "bowling_style": "left-arm",
+        "price": 1000
+    },
+    {
+        "id": 10,
+        "name": "Shoriful Islam",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/8n4gD6b9/Abu-Sayed.jpg",
+        "role": "bowler",
+        "batting_type": "right-handed",
+        "bowling_type": "fast-medium",
+        "bowling_style": "left-arm",
+        "price": 1000
+    },
+    {
+        "id": 11,
+        "name": "Towhid Hridoy",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/fzsCXKT8/Faisal-Ahmed-Shanto.jpg",
+        "role": "batsman",
+        "batting_type": "right-handed",
+        "bowling_type": "none",
+        "bowling_style": "none",
+        "price": 1000
+    },
+    {
+        "id": 12,
+        "name": "Abdu Razzak",
+        "region": "Bangladesh",
+        "img": "https://i.ibb.co/hxs8bjSN/Md-Wasim-Akrum.webp",
+        "role": "bowler",
+        "batting_type": "right-handed",
+        "bowling_type": "fast-medium",
+        "bowling_style": "left-arm",
+        "price": 1000
+    }
+]
