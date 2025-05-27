@@ -1,7 +1,7 @@
 import { IoIosPerson } from "react-icons/io";
 import { FaFontAwesomeFlag } from "react-icons/fa";
 
-const Player = ({ player, handleSelectPlayer }) => {
+const Player = ({ player, handleSelectPlayer, isAdded }) => {
     // console.log(player);
     const { name, region, img, role, price, batting_type, bowling_type, bowling_style } = player;
     return (
@@ -33,7 +33,11 @@ const Player = ({ player, handleSelectPlayer }) => {
             </div>
             <div className="flex justify-between">
                 <h3 className="text-lg font-semibold">Price : <span>{price}</span></h3>
-                <button onClick={() => handleSelectPlayer(player)} className="border px-2 rounded-lg hover:bg-gray-400">Choose Player</button>
+                <button onClick={() => handleSelectPlayer(player)} disabled={isAdded}
+                    className={`px-3 py-1 rounded ${isAdded
+                        ? "bg-gray-400 cursor-not-allowed text-white"
+                        : "bg-yellow-500 text-white"
+                        }`} >{isAdded ? "Added" : "Choose Player"}</button>
             </div>
         </div>
     );
