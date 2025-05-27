@@ -1,3 +1,6 @@
+import { CiCircleRemove } from "react-icons/ci";
+
+
 const SelectedPlayer = ({ player, handleRemovePlayer }) => {
     const { img, name, role } = player;
     return (
@@ -10,7 +13,8 @@ const SelectedPlayer = ({ player, handleRemovePlayer }) => {
                 </div>
             </div>
             <div>
-                <button onClick={() => handleRemovePlayer(player)} >Remove</button>
+                <button onClick={() => handleRemovePlayer(player)} className="text-2xl p-2 rounded-full hover:bg-gray-300" ><CiCircleRemove />
+                </button>
             </div>
         </div>
     );

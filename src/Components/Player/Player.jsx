@@ -36,7 +36,7 @@ const Player = ({ player, handleSelectPlayer, isAdded }) => {
                 <button onClick={() => handleSelectPlayer(player)} disabled={isAdded}
                     className={`px-3 py-1 rounded ${isAdded
                         ? "bg-gray-400 cursor-not-allowed text-white"
-                        : "bg-yellow-500 text-white"
+                        : "bg-yellow-500 text-white hover:bg-yellow-600"
                         }`} >{isAdded ? "Added" : "Choose Player"}</button>
             </div>
         </div>

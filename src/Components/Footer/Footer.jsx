@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                     <div className='space-y-4'>
                         <h3 className='text-2xl font-semibold'>Quick Links</h3>
-                        <ul className='list-disc list-inside'>
+                        <ul className='md:list-disc list-inside'>
                             <li>Home</li>
                             <li>Services</li>
                             <li>About</li>
