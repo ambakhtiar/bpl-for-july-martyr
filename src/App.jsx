@@ -15,6 +15,7 @@ function App() {
 
 
     const handleAddCoin = () => {
+        // event.preventDefault();
         setCoin(coin + 1000);
         toast.success(`Congratulation ! Coin Add Succesfully.`);
     }

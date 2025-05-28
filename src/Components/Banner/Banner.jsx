@@ -21,9 +21,11 @@ export default function Hero({ handleAddCoin }) {
                 <p className="text-gray-300 text-sm mt-2">
                     Beyond Boundaries Beyond Limits
                 </p>
-                <button onClick={handleAddCoin} className="mt-4 bg-lime-400 hover:bg-lime-500 text-black font-semibold px-3 py-2 rounded-xl shadow-md">
-                    Claim Free Benefit
-                </button>
+                <div className='mt-4 border border-lime-400 rounded-xl w-max'>
+                    <button onClick={handleAddCoin} className=" m-1 bg-lime-400 hover:bg-lime-600 text-black font-semibold px-3 py-2 rounded-xl shadow-md">
+                        Claim Free Benefit
+                    </button>
+                </div>
             </div>
         </div>
     );

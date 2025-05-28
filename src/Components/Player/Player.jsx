@@ -20,15 +20,15 @@ const Player = ({ player, handleSelectPlayer, isAdded }) => {
             </div>
             <hr />
             <div className="flex justify-between">
-                <h3 className="text-lg font-semibold">Batting Type</h3>
+                <h3 className="text-md font-semibold">Batting Type</h3>
                 <h3>{batting_type}</h3>
             </div>
             <div className="flex justify-between">
-                <h3 className="text-lg font-semibold">Bowling Type</h3>
+                <h3 className="text-md font-semibold">Bowling Type</h3>
                 <h3>{bowling_type}</h3>
             </div>
             <div className="flex justify-between">
-                <h3 className="text-lg font-semibold">Bowling Style</h3>
+                <h3 className="text-md font-semibold">Bowling Style</h3>
                 <h3>{bowling_style}</h3>
             </div>
             <div className="flex justify-between">

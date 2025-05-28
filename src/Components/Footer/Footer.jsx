@@ -2,24 +2,26 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <div className=' '>
+        <div className=''>
             {/* Subscribe Section  */}
-            <div className="relative z-10 top-32 w-11/12 md:max-w-4xl lg:max-w-5xl mx-auto mt-16 py-20 rounded-2xl bg-gradient-to-tr from-[#e0f7fa] via-white to-[#ffe0b2] shadow-md ">
-                <h2 className="text-lg md:text-xl font-semibold text-gray-900 text-center">
-                    <span className="font-bold">Subscribe</span> to our Newsletter
-                </h2>
-                <p className="text-sm text-gray-600 text-center mt-1">
-                    Get the latest updates and news right in your inbox!
-                </p>
+            <div className='relative z-10 top-32 mt-16 w-11/12 md:max-w-4xl lg:max-w-5xl mx-auto border border-white rounded-2xl'>
+                <div className="m-2 py-20 rounded-2xl bg-gradient-to-tr from-[#e0f7fa] via-white to-[#ffe0b2] shadow-md ">
+                    <h2 className="text-lg md:text-xl font-semibold text-gray-900 text-center">
+                        <span className="font-bold">Subscribe</span> to our Newsletter
+                    </h2>
+                    <p className="text-sm text-gray-600 text-center mt-1">
+                        Get the latest updates and news right in your inbox!
+                    </p>
 
-                <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-2">
-                    <input type="email"
-                        placeholder="Enter your email"
-                        className="w-3/10  m:flex-1 px-4 py-2 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-                    <button type="submit"
-                        className="bg-gradient-to-r from-yellow-400 to-pink-400 text-white font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition"
-                    > Subscribe
-                    </button>
+                    <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-2">
+                        <input type="email"
+                            placeholder="Enter your email"
+                            className="w-3/10  m:flex-1 px-4 py-2 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                        <button type="submit"
+                            className="bg-gradient-to-r from-yellow-400 to-pink-400 text-white font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition"
+                        > Subscribe
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -51,7 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='text-center border-t border-t-gray-800 w-full'>
-                    <p className='my-8'>Our Company All Rights Reserved @2025.</p>
+                    <p className='my-8'>July Revolution (Bangladesh) @2025 Our Company All Rights Reserved.</p>
                 </div>
             </div>
         </div>
